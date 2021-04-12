@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD Operations</title>
+    <link rel="stylesheet" href="{% static 'Enroll/css/bootstrap.min.css' %}">
+</head>
+<body>
+<div class="container mt-5"></div>
+<h2 class="text-center alert alert-danger"> Student Registration Form</h2>
+{% block content %}
+{% endblock %}
+
+<script src="{% static 'Enroll/js/jquery.js' %}"></script>
+<script src="{% static 'Enroll/js/popper.js' %}"></script>
+<script src="{% static 'Enroll/js/bootstrap.min.js' %}"></script>
+</body>
+</html>
